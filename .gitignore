@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large ML models — too big for GitHub
+classification/models/gesture_rf_realtime.joblib
+classification/models/gesture_rf.joblib
+
+# Recorded data
+data/recordings/
+
+# IDE / tools
+.claude/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

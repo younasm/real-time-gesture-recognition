@@ -1,0 +1,35 @@
+Real-Time Gesture Evaluation Summary
+========================================================
+Total trials   : 90
+Correct        : 11
+Overall accuracy: 0.1222 (12.2%)
+
+Per-gesture accuracy
+----------------------------------------
+  circle_ccw             5/10  (50.0%)
+  circle_cw              2/10  (20.0%)
+  pull                   0/10  (0.0%)
+  push                   1/10  (10.0%)
+  swipe_down             0/10  (0.0%)
+  swipe_left             0/10  (0.0%)
+  swipe_right            0/10  (0.0%)
+  swipe_up               1/10  (10.0%)
+  wave                   2/10  (20.0%)
+
+Classification Report
+----------------------------------------
+              precision    recall  f1-score   support
+
+  circle_ccw       0.14      0.50      0.21        10
+   circle_cw       0.29      0.20      0.24        10
+        pull       0.00      0.00      0.00        10
+        push       0.08      0.10      0.09        10
+  swipe_down       0.00      0.00      0.00        10
+  swipe_left       0.00      0.00      0.00        10
+ swipe_right       0.00      0.00      0.00        10
+    swipe_up       0.33      0.10      0.15        10
+        wave       0.29      0.20      0.24        10
+
+    accuracy                           0.12        90
+   macro avg       0.12      0.12      0.10        90
+weighted avg       0.12      0.12      0.10        90

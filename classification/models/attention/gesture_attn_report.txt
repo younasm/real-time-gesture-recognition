@@ -1,0 +1,19 @@
+CNN + Multi-Head Self-Attention + BiLSTM — Validation Report
+Best val accuracy: 0.3986
+
+              precision    recall  f1-score   support
+
+  circle_ccw       0.37      0.40      0.38       226
+   circle_cw       0.34      0.30      0.32       204
+        pull       0.65      0.55      0.60       165
+        push       0.43      0.34      0.38       167
+      static       0.95      0.97      0.96        40
+  swipe_down       0.27      0.18      0.22       227
+  swipe_left       0.28      0.26      0.27       172
+ swipe_right       0.35      0.47      0.40       209
+    swipe_up       0.39      0.48      0.43       199
+        wave       0.44      0.54      0.48       185
+
+    accuracy                           0.40      1794
+   macro avg       0.45      0.45      0.44      1794
+weighted avg       0.40      0.40      0.39      1794

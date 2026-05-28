@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the following metadata."
+type: software
+title: "Real-Time Gesture Recognition using mmWave Radar"
+abstract: >
+  A real-time hand gesture recognition framework using the TI IWR1843BOOST
+  millimetre-wave radar sensor. The system processes sparse point clouds
+  (3–15 points per frame at 20 Hz) through a 15-feature pipeline with
+  trajectory normalization and frame-to-frame motion features, then
+  classifies 10 gesture classes using a 1D CNN + Multi-Head Self-Attention
+  + BiLSTM deep learning architecture achieving 93.9% validation accuracy.
+authors:
+  - family-names: "Younas"
+    given-names: "Muhammad"
+    email: younas.cs@hotmail.com
+    orcid: "https://orcid.org/0009-0009-7893-1191"
+repository-code: "https://github.com/younasm/real-time-gesture-recognition"
+license: "CC-BY-NC-4.0"
+date-released: "2026-05-20"
+version: "1.0.0"
+keywords:
+  - mmWave radar
+  - gesture recognition
+  - real-time
+  - deep learning
+  - IWR1843
+  - point cloud
+  - self-attention
+  - BiLSTM
+  - human-computer interaction

@@ -1,0 +1,20 @@
+CNN-BiLSTM Gesture Classifier — Validation Report
+Copyright (c) 2026 Muhammad Younas
+Best val accuracy: 0.9929
+
+              precision    recall  f1-score   support
+
+  circle_ccw       1.00      0.99      1.00       608
+   circle_cw       0.99      1.00      0.99       605
+        pull       0.98      0.99      0.99       568
+        push       1.00      0.99      0.99       598
+      static       0.98      1.00      0.99       405
+  swipe_down       0.99      0.99      0.99       608
+  swipe_left       0.99      1.00      0.99       599
+ swipe_right       1.00      0.99      0.99       603
+    swipe_up       0.99      0.99      0.99       603
+        wave       1.00      0.99      0.99       608
+
+    accuracy                           0.99      5805
+   macro avg       0.99      0.99      0.99      5805
+weighted avg       0.99      0.99      0.99      5805
