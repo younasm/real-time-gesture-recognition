@@ -119,7 +119,7 @@ Look for entries containing `XDS110` — the lower-numbered port is CLI, the hig
 
 ### Live mode (hardware required)
 
-1. Flash the IWR1443 with TI mmWave SDK OOB demo firmware
+1. Flash the IWR1843 with TI mmWave SDK OOB demo firmware
 2. Connect the board via USB
 3. Set the correct COM ports in `config/settings.py`
 4. Run:
@@ -276,7 +276,7 @@ radar_gesture_framework/
 ├── requirements.txt
 ├── config/
 │   ├── settings.py          # All configuration (edit this)
-│   └── iwr1443_gesture.cfg  # Radar hardware config
+│   └── iwr1843_gesture.cfg  # Radar hardware config
 ├── radar/                   # Serial interface and frame parser
 ├── processing/              # Point cloud, clustering, tracking
 ├── classification/          # Gesture engine and ML trainer
