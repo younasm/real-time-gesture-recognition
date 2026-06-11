@@ -16,7 +16,6 @@ classification/models/gesture_rf.joblib
 data/recordings/
 
 # IDE / tools
-.claude/
 .vscode/
 .idea/
 
